@@ -3,6 +3,29 @@
     "@dynatrace/strato-components": "^3.6.0",
     "@dynatrace/strato-design-tokens": "^1.5.0",
     "@dynatrace/strato-geo": "^3.6.0",
-    "@dynatrace/strato-icons": "^2.3.0"
+    "@dynatrace/strato-icons": "^2.3.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intl": "^6.8.9",
+    "vite": "^8.0.16"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "storybook": "^10.4.3",
+    "@storybook/react-vite": "^10.4.3",
+    "@chromatic-com/storybook": "^5.2.1",
+    "@storybook/addon-vitest": "^10.4.3",
+    "@storybook/addon-a11y": "^10.4.3",
+    "@storybook/addon-docs": "^10.4.3",
+    "@storybook/addon-mcp": "^0.6.0",
+    "prop-types": "^15.8.1",
+    "vitest": "^4.1.8",
+    "playwright": "^1.60.0",
+    "@vitest/browser-playwright": "^4.1.8",
+    "@vitest/coverage-v8": "^4.1.8"
   }
 }
