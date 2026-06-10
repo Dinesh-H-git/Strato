@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@dynatrace/strato-components": "^3.6.0",
+    "@dynatrace/strato-design-tokens": "^1.5.0",
+    "@dynatrace/strato-geo": "^3.6.0",
+    "@dynatrace/strato-icons": "^2.3.0"
+  }
+}
